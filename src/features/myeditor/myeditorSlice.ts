@@ -15,7 +15,7 @@ export const myeditorSlice = createSlice({
   initialState,
   reducers: {
     setEditorState: (states, action) => {
-      states["editorState"] = action.payload;
+      states.editorState = action.payload;
     },
   },
 });
